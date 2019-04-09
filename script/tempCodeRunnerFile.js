@@ -1,3 +1,11 @@
-let arr = ['plum.png','ok.jpg','logo.svg'];
+let num = 50;
 
-console.log(arr[2]);
+if (num < 49) {
+    console.log('FALSE!!!')
+} else if (num >100) {
+    console.log('lot!!!')
+}else {
+    console.log('true!!!')
+};
+
+(num == 50) ? console.log('truE') : console.log('falsE');
